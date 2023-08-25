@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    overflow: hidden;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.hero{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.heading{
+    margin-top: 2rem;
+    font-family: "General Sans";
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 2rem;
+}
+.heading h1{
+    font-size: 9vw;
+    opacity: .6;
+}
+
+#designer{
+    margin-left: 12vw;
+    /* text-align: ; */
+}
+.blocktext{
+    width: fit-content;
+}
+.blocktext h5{
+    text-align: right;
+    font-size: 1vw;
+}
+
+.subheadings{
+    margin-top: 2vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    padding: 0px 2rem;
+    text-align: right;
+}
+
+.herofooter{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.herofooter a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.buttons button{
+    border: none;
+    border-radius: 50%;
+    padding: 3px 4px;
+}
+.secondhero{
+    padding: 6vw 2rem;
+    height: 100vh;
+}
+.elem{
+    border-top: 1px solid #888;
+    padding: 2rem 0px;
+    cursor: default;
+}
+
+.elem h1{
+text-transform: uppercase;
+font-size: 6.5vw;
+opacity: .7;
+}
+
+.lastelem{
+    border-bottom: 1px solid #888;
+}
+
+
+
+
