@@ -10,7 +10,18 @@ html,
 body {
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
+    
+}
+
+#circle{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    /* -webki */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.3s;
 }
 
 .main {
