@@ -38,12 +38,33 @@ function animation(){
 
 }
 
-
-
-
-
-
-
-
 animation();
 mouseFollowCircle();
+
+
+document.querySelectorAll(".elem").forEach(function (elem){
+    let rotate = 0;
+    let diffrence = 0;
+
+    elem.addEventListener("mouseleave", function (){
+        gsap.to(elem.querySelector("img"),{
+            opacity: 0,
+            ease: Power3,
+            duration:.5
+        })
+    })
+
+    elem.addEventListener("mousemove", function (dets){
+        let diff = dets.clientX - elem.getBoundingClientRect().top;
+         diffrence = dets.clientX - rotate;
+         rotate = dets.clientX
+        gsap.to(elem.querySelector("img"),{
+            opacity: 1,
+            ease: Power1,
+            top: diffrence,
+            left: dets.clientX,
+            rotate: gsap.utils.clamp(-20,20, diffrence * .8)
+        });
+    });
+});
+
