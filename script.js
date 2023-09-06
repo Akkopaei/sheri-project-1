@@ -8,7 +8,7 @@ const scroll = new LocomotiveScroll({
 
 function mouseFollowCircle(){
     window.addEventListener("mousemove",(dets)=>{
-        document.querySelector('#circle').style.transform = `translate(${dets.clientX}px,${dets.clientY}px)`
+        document.querySelector('#circle').style.transform = `translate(${dets.clientX-7}px,${dets.clientY-7}px)`
     })
 }
 
