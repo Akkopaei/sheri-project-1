@@ -148,9 +148,6 @@ body {
     cursor: default;
 }
 
-.elem:hover #circle{
-    background: #000;
-}
 
 .elem:hover h1{
     transform: translateY(50%);
