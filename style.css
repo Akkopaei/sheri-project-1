@@ -146,10 +146,12 @@ body {
 }
 
 .elem img {
-    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
     z-index: 999;
-    height: 150%;
-    opacity: 0;;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .elem h1 {
