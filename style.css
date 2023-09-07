@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "General Sans";
     /* overflow: hidden; */
-    cursor: default;
+    /* cursor: default; */
 }
 
 html,
@@ -121,6 +121,9 @@ body {
     color: white;
     text-transform: uppercase;
 }
+.herofooter a:hover{
+    border-bottom: 1px solid white;
+}
 
 .buttons button {
     border: none;
@@ -143,6 +146,16 @@ body {
     border-top: 1px solid #888;
     padding: 2.5rem 0px;
     cursor: default;
+}
+
+.elem:hover #circle{
+    background: #000;
+}
+
+.elem:hover h1{
+    transform: translateY(50%);
+    opacity: .1;
+    transition: all .4s;
 }
 
 .elem img {

@@ -62,8 +62,9 @@ document.querySelectorAll(".elem").forEach(function (elem) {
         opacity: 1,
         ease: Power3,
         top: diff,
+        delay: .01,
         left: dets.clientX,
-        rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
+        rotate: gsap.utils.clamp(-20, 20, diffrot * 0.9),
       });
     });
   });
