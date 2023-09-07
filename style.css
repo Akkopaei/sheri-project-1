@@ -131,7 +131,7 @@ body {
 .secondhero {
     padding: 6vw 2rem;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .elem {
